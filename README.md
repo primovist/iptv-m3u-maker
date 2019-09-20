@@ -50,7 +50,7 @@ python main.py
 两行命令构建运行环境
 ```
 docker pull python:3.7
-docker run -it --name python3 -v {脚本所在滤镜}:{容器里随便你想要的路径} python:3.7
+docker run -it --name python3 -v {脚本所在路径}:{容器里随便你想要的路径} python:3.7
 ```
 
 ## 其他
