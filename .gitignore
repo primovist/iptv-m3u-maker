@@ -2,8 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+*.sqlite3
+log.txt
 .vscode/
+.DS_Store
 
 # C extensions
 *.so
